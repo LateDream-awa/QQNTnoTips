@@ -1,0 +1,21 @@
+{
+	"manifest_version": 4,
+	"type": "extension",
+	"name": "QQNTnoTips",
+	"slug": "qqntnotips",
+	"description": "QQNT别用右下角游戏推送推送烦我好吗",
+	"version": "1.0.0",
+	"authors": [{
+		"name": "XiaozhiSans",
+		"link": "https://github.com/XiaozhiSans"
+	}],
+	"platform": ["win32", "linux", "darwin"],
+	"injects": {
+		"preload": "./preload.js",
+		"main": "./main.js"
+	},
+	"repository": {
+		"repo": "XiaozhiSans/QQNTnoTips",
+		"branch": "main"
+	}
+}
