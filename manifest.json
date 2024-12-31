@@ -4,18 +4,23 @@
 	"name": "QQNTnoTips",
 	"slug": "qqntnotips",
 	"description": "QQNT别用右下角游戏推送推送烦我好吗",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"authors": [{
-		"name": "XiaozhiSans",
-		"link": "https://github.com/XiaozhiSans"
+		"name": "晚梦",
+		"link": "https://github.com/LateDreamXD"
 	}],
 	"platform": ["win32", "linux", "darwin"],
 	"injects": {
 		"preload": "./preload.js",
-		"main": "./main.js"
+		"main": "./main.js",
+		"renderer": "./renderer.js"
 	},
 	"repository": {
-		"repo": "XiaozhiSans/QQNTnoTips",
-		"branch": "main"
+		"repo": "LateDreamXD/QQNTnoTips",
+		"branch": "main",
+		"release": {
+			"tag": "v1.1.0",
+			"file": "qqntnotips.zip"
+		}
 	}
 }
